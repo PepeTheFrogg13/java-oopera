@@ -8,7 +8,7 @@ import ru.yandex.sprint4.Person.Director;
 import java.util.ArrayList;
 
 public class Ballet extends MusicalShow {
-    private Choreographer choreographer;
+    private final Choreographer choreographer;
 
     public Ballet(String title,
                   int duration,

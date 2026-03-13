@@ -1,8 +1,8 @@
 package ru.yandex.sprint4.Person;
 
 public class Person {
-    private String name;
-    private String surname;
+    private final String name;
+    private final String surname;
     private final Gender gender;
 
     public Person(String name, String surname, Gender gender) {

@@ -7,8 +7,8 @@ import ru.yandex.sprint4.Person.Director;
 import java.util.ArrayList;
 
 public class MusicalShow extends Show {
-    private Composer musicAuthor;
-    private String librettoText;
+    private final Composer musicAuthor;
+    private final String librettoText;
 
     public MusicalShow(String title,
                        int duration,
