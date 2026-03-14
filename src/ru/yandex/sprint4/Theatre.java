@@ -49,8 +49,11 @@ public class Theatre {
         ballet.printDirector();
         ballet.printActors();
         printBorder();
+        //Пытаемся заменить актёра на уже существующего актера в списке
         show.replaceActor(actor2,"Петров");
+        //Делаем замену
         show.replaceActor(actor3,"Петров");
+        //Пытаемся сделать замену актера, которого нет в списке
         show.replaceActor(actor1,"Петров");
         printBorder();
         show.printTitle();

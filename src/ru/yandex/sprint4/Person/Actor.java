@@ -20,7 +20,7 @@ public class Actor extends Person {
     public boolean equals(Object object) {
         if (object == null || getClass() != object.getClass()) return false;
         Actor actor = (Actor) object;
-        return actor.getName().equals(getName()) && actor.getSurname().equals(getSurname()) && actor.height == height;
+        return actor.getName().equals(getName()) && actor.getSurname().equals(getSurname()) && Double.compare(height,actor.height) == 0;
     }
 
     @Override
