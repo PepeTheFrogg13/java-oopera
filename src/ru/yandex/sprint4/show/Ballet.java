@@ -1,9 +1,9 @@
-package ru.yandex.sprint4.Show;
+package ru.yandex.sprint4.show;
 
-import ru.yandex.sprint4.Person.Actor;
-import ru.yandex.sprint4.Person.Choreographer;
-import ru.yandex.sprint4.Person.Composer;
-import ru.yandex.sprint4.Person.Director;
+import ru.yandex.sprint4.person.Actor;
+import ru.yandex.sprint4.person.Choreographer;
+import ru.yandex.sprint4.person.Composer;
+import ru.yandex.sprint4.person.Director;
 
 import java.util.ArrayList;
 

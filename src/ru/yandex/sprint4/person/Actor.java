@@ -1,4 +1,4 @@
-package ru.yandex.sprint4.Person;
+package ru.yandex.sprint4.person;
 
 import java.util.Objects;
 
@@ -25,6 +25,6 @@ public class Actor extends Person {
 
     @Override
     public int hashCode() {
-        return Objects.hashCode(getName()) + Objects.hashCode(getSurname()) + Objects.hashCode(height);
+        return Objects.hash(getName(),getSurname(),height);
     }
 }

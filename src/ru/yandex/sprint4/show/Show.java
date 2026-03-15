@@ -1,7 +1,7 @@
-package ru.yandex.sprint4.Show;
+package ru.yandex.sprint4.show;
 
-import ru.yandex.sprint4.Person.Actor;
-import ru.yandex.sprint4.Person.Director;
+import ru.yandex.sprint4.person.Actor;
+import ru.yandex.sprint4.person.Director;
 
 import java.util.ArrayList;
 

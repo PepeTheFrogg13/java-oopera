@@ -1,4 +1,4 @@
-package ru.yandex.sprint4.Person;
+package ru.yandex.sprint4.person;
 
 public class Choreographer extends Person {
     public Choreographer(String name, String surname, Gender gender) {

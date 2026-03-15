@@ -1,4 +1,4 @@
-package ru.yandex.sprint4.Person;
+package ru.yandex.sprint4.person;
 
 public class Composer extends Person {
 

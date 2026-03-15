@@ -1,9 +1,9 @@
 package ru.yandex.sprint4;
 
-import ru.yandex.sprint4.Person.*;
-import ru.yandex.sprint4.Show.Ballet;
-import ru.yandex.sprint4.Show.Opera;
-import ru.yandex.sprint4.Show.Show;
+import ru.yandex.sprint4.person.*;
+import ru.yandex.sprint4.show.Ballet;
+import ru.yandex.sprint4.show.Opera;
+import ru.yandex.sprint4.show.Show;
 
 import java.util.ArrayList;
 
